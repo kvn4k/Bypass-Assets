@@ -1,2 +1,0 @@
-# Bypass-Assets
-Bypass Downloads
