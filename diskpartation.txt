@@ -1,0 +1,4 @@
+diskpart
+select vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
+detach vdisk
+del "C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
