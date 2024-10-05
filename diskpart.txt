@@ -1,4 +1,3 @@
-diskpart
 create vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd" maximum=2000
 select vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
 attach vdisk
