@@ -1,4 +1,6 @@
 diskpart
 select vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
+list disk
+select disk 2
 detach vdisk
 del "C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
