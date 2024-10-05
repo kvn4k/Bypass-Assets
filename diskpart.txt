@@ -1,0 +1,5 @@
+create vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd" maximum=2000
+select vdisk file="C:\Program Files (x86)\Steam\ThirdPartyLegalNotices.vhd"
+create partition primary
+format fs=fat32 quick
+assign letter=X
